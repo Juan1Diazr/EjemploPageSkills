@@ -121,20 +121,20 @@ body, html{
     
     
 }
-.container .cousers .contenidocousers h2{
+.cousers .contenidocousers h2{
    color: rgb(255, 255, 255);
 
 
 
 }
-.container .cousers .contenidocousers  h3{
+.cousers .contenidocousers  h3{
     color: rgb(255, 255, 255);
     
  }
 
  
 
- .container .cousers .cousers .cursos{
+.cousers  .cursos{
     width: 100%;
     display: flex;
     gap: 10px;
@@ -143,45 +143,83 @@ body, html{
     flex-direction: row;
  }
  
- .container .cousers  .cursos .cards {
-    width: 33%;
-    height: 100px;
-    border-radius: 5px;
-    border: 1px solid #30363D;
-    padding: 2px;
-    color: white;
-    box-sizing: border-box;
+
+.cursos {
+
+    display: flex ;
+    flex-direction: row;
     margin:0px 150px 0px  150px;
-    padding: 2px;    
-     background-color: lightblue;
-     margin-top: 16px;
-    margin-bottom: 16px;
+}
+.cursos p{
+     color: white;
+    display: flex ;
+    flex-direction: row;
    
 }
-   
- 
- .container .coursers .contenidocousers.cursos .cards p{
-    width: 33px;
-    margin: 10px;
-    line-height: 75px;
-    font-size: 30px;
-     margin:0px 150px 0px  150px;
-     float: none;
-     text-align: center;
-    
-   }
-   .container .cousers .cursos.cards  a:hover{
-    color: rgb(255, 255, 255);
-    width: 250px;
-    text-decoration: none;
-   background-color: #232386;
+.cards1{
+width: 400px;
+padding: 16px;
+border: solid #30363D;
+box-sizing: border-box;
+}
+.cards2{
+    width: 400px;
+    border: solid #30363D;
+    box-sizing: border-box;
+    padding: 16px;
+}
+.cards3{
+    width: 400px;
+    border: solid #30363D;
+    box-sizing: border-box;
+    padding: 16px;
+
+}
+.contenedor2 {
+    width: 500px;
+    display: flex;
+    gap: 10px;
     justify-content: center;
     align-items: center;
-   
-    
-    
- }
+    flex-direction: row;
+    height: auto;
+    padding: 10px;
 
+}
+.cousers .cursos2{
+  
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.cursos2 p{
+    color: white;
+    display: flex ;
+    flex-direction: row;
+   
+}
+.cards4{
+    width: 400px;
+    padding: 16px;
+    border: solid #30363D;
+    box-sizing: border-box;
+    }
+    .cards5{
+        width: 400px;
+        border: solid #30363D;
+        box-sizing: border-box;
+        padding: 16px;
+    }
+    .cards6{
+        width: 400px;
+        border: solid #30363D;
+        box-sizing: border-box;
+        padding: 16px;
+    
+    }
 
 
 
