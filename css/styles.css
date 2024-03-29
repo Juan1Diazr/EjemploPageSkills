@@ -16,7 +16,7 @@ body, html{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction:column;
     
 }
 .container .firts{
@@ -113,13 +113,13 @@ body, html{
     width: 350px;
     padding-left: 100px;
 }
+
 .container .cousers .contenidocousers{
     margin:0px 150px 0px  150px;
-   
-    height: 400px;
-
-
-
+    height: auto;
+    padding: 10px;
+    
+    
 }
 .container .cousers .contenidocousers h2{
    color: rgb(255, 255, 255);
@@ -127,9 +127,75 @@ body, html{
 
 
 }
-.container .cousers .contenidocousers h3{
+.container .cousers .contenidocousers  h3{
     color: rgb(255, 255, 255);
- 
- 
- 
+    
  }
+
+ 
+
+ .container .cousers .cousers .cursos{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+ }
+ 
+ .container .cousers  .cursos .cards {
+    width: 33%;
+    height: 100px;
+    border-radius: 5px;
+    border: 1px solid #30363D;
+    padding: 2px;
+    color: white;
+    box-sizing: border-box;
+    margin:0px 150px 0px  150px;
+    padding: 2px;    
+     background-color: lightblue;
+     margin-top: 16px;
+    margin-bottom: 16px;
+   
+}
+   
+ 
+ .container .coursers .contenidocousers.cursos .cards p{
+    width: 33px;
+    margin: 10px;
+    line-height: 75px;
+    font-size: 30px;
+     margin:0px 150px 0px  150px;
+     float: none;
+     text-align: center;
+    
+   }
+   .container .cousers .cursos.cards  a:hover{
+    color: rgb(255, 255, 255);
+    width: 250px;
+    text-decoration: none;
+   background-color: #232386;
+    justify-content: center;
+    align-items: center;
+   
+    
+    
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
